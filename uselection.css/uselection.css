@@ -128,8 +128,34 @@ gap: 1rem;
 .text-2 h4:hover{
    text-decoration: underline;
  }
+ @media (max-width:900px){
+  .news-2{
+    display: none;
+  }
+ .smallnews-2{
+  display: none;
+ }
+  }
+  
+ 
  @media(max-width:785px){
 .news-2{
   display: none;
 }
 }
+@media (max-width:770px){
+  .news-1{flex-direction: column-reverse;}
+  .smallnews-1{
+    flex-wrap: wrap;
+  }
+  .news-cards{
+    width: 45%;
+  margin: 0.5rem;
+  }
+}
+@media (max-width:450px){
+  .news-cards{
+    width: 80%;
+  }
+}
+
